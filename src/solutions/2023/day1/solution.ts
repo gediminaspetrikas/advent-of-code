@@ -1,8 +1,7 @@
 import { readFile } from 'fs/promises';
 
-const inputFilePath = 'src/solutions/2023/day1/input1.txt';
 const readInputFile = async () => {
-  return await readFile(inputFilePath, 'utf-8');
+  return await readFile('src/solutions/2023/day1/input1.txt', 'utf-8');
 };
 
 const digitMapping: Record<string, number> = {
