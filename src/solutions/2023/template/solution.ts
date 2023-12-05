@@ -11,11 +11,11 @@ const solve =
     return solveFn(input);
   };
 
-const getFirstPartAnswer = async (input: string) => {
+const getFirstPartAnswer = async (inputString: string) => {
   return 0;
 };
 
-const getSecondPartAnswer = async (input: string) => {
+const getSecondPartAnswer = async (inputString: string) => {
   return 0;
 };
 
